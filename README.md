@@ -77,9 +77,9 @@ The fifth model used the Balance Random Forest Classifier algorithm
 - Predicted High Risk Applicants: With 3% precision, & 70% recall 
 - Predicted Low Risk Applicants: With 100% precision, & 87% recall 
 
-![Model 5 Accuracy Score](URL)
+![Model 5 Accuracy Score]( https://github.com/bdang303/Credit_Risk_Analysis/blob/main/images/M5As.png)
 
-![Model 5 Classification Report](URL)
+![Model 5 Classification Report]( https://github.com/bdang303/Credit_Risk_Analysis/blob/main/images/M5CR.png)
 
 
 ### Easy Ensemble AdaBoost Classifier
@@ -91,9 +91,9 @@ algorithm
 - Predicted High Risk Applicants: With 9% precision, & 92% recall 
 - Predicted Low Risk Applicants: With 100% precision, & 94% recall 
 
-![Model 6 Accuracy Score](URL)
+![Model 6 Accuracy Score]( https://github.com/bdang303/Credit_Risk_Analysis/blob/main/images/M6AS.png)
 
-![Model 6 Classification Report](URL)
+![Model 6 Classification Report]( https://github.com/bdang303/Credit_Risk_Analysis/blob/main/images/M6CR.png)
 
 
 
