@@ -2,7 +2,7 @@
 ML
 
 
-## Overview of the analysis: Explain the purpose of this analysis.
+## Overview of the analysis 
 
 This analysis utilizes various machine learning algorithms & models to predict the credit risk of applicants. As we run the dataset and its features through each of the models, we’ll be able to assess the accuracy score as well as metrics via classification reports to determine which method & model is most appropriate. The models used include: 
 
@@ -16,7 +16,7 @@ In addition, we’ll run the data through two ensemble models using:
 - Balanced Random Forest Classifier
 - Easy Ensemble AdaBoost Classifier
 
-## Results: Using bulleted lists, describe the balanced accuracy scores and the precision and recall scores of all six machine learning models. Use screenshots of your outputs to support your results.
+## Results
 
 ### Naïve Random Oversampling
 
@@ -26,11 +26,11 @@ The first model used was a random oversampling model
 - Predicted High Risk Applicants: With 1% precision, & 69% recall 
 - Predicted Low Risk Applicants: With 100% precision, & 61% recall 
 
-![Model 1 Accuracy Score](URL)
+![Model 1 Accuracy Score]( https://github.com/bdang303/Credit_Risk_Analysis/blob/main/images/M1AS.png)
 
-![Model 1 Classification Report](URL)
+![Model 1 Classification Report]( https://github.com/bdang303/Credit_Risk_Analysis/blob/main/images/M1CR.png)
 
-### Undersampling
+### Under sampling
 
 The second model used was a SMOTE oversampling model
 
@@ -38,12 +38,9 @@ The second model used was a SMOTE oversampling model
 - Predicted High Risk Applicants: With 1% precision, & 63% recall 
 - Predicted Low Risk Applicants: With 100% precision, & 69% recall 
 
-![Model 2 Accuracy Score](URL)
+![Model 2 Accuracy Score]( https://github.com/bdang303/Credit_Risk_Analysis/blob/main/images/M2AS.png)
 
-![Model 2 Classification Report](URL)
-
-
-
+![Model 2 Classification Report]( https://github.com/bdang303/Credit_Risk_Analysis/blob/main/images/M2CR.png)
 
 
 ### Under Sampling
@@ -54,9 +51,9 @@ The third model used was an under-sampling model
 - Predicted High Risk Applicants: With 1% precision, & 69% recall 
 - Predicted Low Risk Applicants: With 100% precision, & 40% recall 
 
-![Model 3 Accuracy Score](URL)
+![Model 3 Accuracy Score]( https://github.com/bdang303/Credit_Risk_Analysis/blob/main/images/M3AS.png)
 
-![Model 3 Classification Report](URL)
+![Model 3 Classification Report]( https://github.com/bdang303/Credit_Risk_Analysis/blob/main/images/M3CR.png)
 
 
 ### Over/Under Sampling
@@ -67,9 +64,9 @@ The fourth model used a combination of over & under sampling
 - Predicted High Risk Applicants: With 1% precision, & 69% recall 
 - Predicted Low Risk Applicants: With 100% precision, & 40% recall 
 
-![Model 4 Accuracy Score](URL)
+![Model 4 Accuracy Score]( https://github.com/bdang303/Credit_Risk_Analysis/blob/main/images/M4AS.png)
 
-![Model 4 Classification Report](URL)
+![Model 4 Classification Report]( https://github.com/bdang303/Credit_Risk_Analysis/blob/main/images/M4CR.png)
 
 
 ### Balance Random Forest Classifier
@@ -101,6 +98,6 @@ algorithm
 
 
 
-## Summary: Summarize the results of the machine learning models, and include a recommendation on the model to use, if any. If you do not recommend any of the models, justify your reasoning.
+## Summary
 
 All of these models predict high risk candidates extremely poorly, however the if the intent is to determine which applicants are low risk and therefore eligible to be approved for credit, then the Easy Ensemble AdaBoost Classifier algorithm may be the best bet given its accuracy score.
